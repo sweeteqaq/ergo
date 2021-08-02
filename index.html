@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Ergo</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="./assets/css/animate.min.css" />
+
+    <!-- reset.less -->
+    <link rel="stylesheet/less" href="./assets/css/reset.less" />
+
+    <!-- common.less -->
+    <link rel="stylesheet/less" href="./assets/css/common.less" />
+
+    <!-- index.less -->
+    <link rel="stylesheet/less" href="./assets/css/index.less" />
+
+    <!-- 百度地图 -->
+    <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=lc157iTGgIH9rzWgDncPpAFDaflGbzCn"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <div class="menu glyphicon glyphicon-list"></div>
+
+        <div class="logo">
+            <img class="img-responsive" src="./assets/images/logo.png" />
+        </div>
+
+        <div class="search glyphicon glyphicon-search"></div>
+    </header>
+
+    <!-- 轮播图 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="./assets/images/banner.png" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="./assets/images/banner.png" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="./assets/images/banner.png" class="img-responsive">
+          </div>
+        </div>
+      
+        <!-- 左右的按钮 -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- 评估 -->
+    <div class="assessment">
+      <div class="theme">风险评估</div>
+
+      <div class="list">
+        <div class="item">
+          <div class="thumb">
+            <img src="./assets/images/assessment-img1.png" />
+          </div>
+          <span class="title">
+            办公室
+          </span>
+        </div>
+        <div class="item">
+          <div class="thumb">
+            <img src="./assets/images/assessment-img2.png" />
+          </div>
+          <span class="title">
+            办公室
+          </span>
+        </div>
+        <div class="item">
+          <div class="thumb">
+            <img src="./assets/images/assessment-img3.png" />
+          </div>
+          <span class="title">
+            办公室
+          </span>
+        </div>
+        <div class="item">
+          <div class="thumb">
+            <img src="./assets/images/assessment-img4.png" />
+          </div>
+          <span class="title">
+            办公室
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 新闻 -->
+    <div class="news">
+      <div class="item back">
+        <img class="img-responsive" src="./assets/images/news-img.png" />
+      </div>
+      <div class="item info">
+        <h2 class="title">专业咨询</h2>
+        <div class="list">
+          <a href="javascript:void(0)">个人咨询</a>
+          <a href="javascript:void(0)">企业咨询</a>
+        </div>
+      </div>
+      <div class="item back">
+        <img class="img-responsive" src="./assets/images/news-img.png" />
+      </div>
+      <div class="item info">
+        <h2 class="title">专业咨询</h2>
+        <div class="list">
+          <a href="javascript:void(0)">个人咨询</a>
+          <a href="javascript:void(0)">企业咨询</a>
+        </div>
+      </div>
+      <div class="item back">
+        <img class="img-responsive" src="./assets/images/news-img.png" />
+      </div>
+      <div class="item info">
+        <h2 class="title">专业咨询</h2>
+        <div class="list">
+          <a href="javascript:void(0)">个人咨询</a>
+          <a href="javascript:void(0)">企业咨询</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 应用 -->
+    <div class="application">
+      <div class="theme">人体工学介绍和应用</div>
+
+      <div class="back">
+        <div class="images">
+          <img src="./assets/images/application-img.png" />
+        </div>
+        <div class="box">
+          <h1 class="title">人体工学介绍</h1>
+          <div class="taglist">
+            <a href="javascript:void(0)">历史</a>
+            <a href="javascript:void(0)">现在</a>
+            <a href="javascript:void(0)">将来</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="btnlist">
+        <div class="item">
+          <div class="icon">
+            <img src="./assets/images/application-icon1.png" />
+          </div>
+          <span>职业应用</span>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <img src="./assets/images/application-icon2.png" />
+          </div>
+          <span>职业应用</span>
+        </div>
+      </div>
+
+      <div class="btnlist2">
+        <div class="icon">
+          <img src="./assets/images/application-icon3.png" />
+        </div>
+        <span>其他应用</span>
+      </div>
+    </div>
+
+    <!-- 联系我们 -->
+    <div class="contact">
+      <div class="theme">人体工学介绍和应用</div>
+
+      <div class="content">
+        <div class="line">
+          <div class="item">
+            <span class="glyphicon glyphicon-earphone"></span>
+            <span class="info">+86 15217196291</span>
+          </div>
+        </div>
+        <div class="line">
+          <div class="item">
+            <span class="glyphicon glyphicon-print"></span>
+            <span class="info">+86 15217196291</span>
+          </div>
+          <div class="item">
+            <span class="glyphicon glyphicon-envelope"></span>
+            <span class="info"> ergo168@qq.com</span>
+          </div>
+        </div>
+        <div class="line">
+          <div class="item">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <span class="info">广州市天河区珠江新城珠江西路高德置地D座15楼</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="map" id="map">
+
+      </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer class="footer">
+      <a href="javascript:void(0)" class="item">
+        <span class="glyphicon glyphicon-home"></span>
+        <span>首页</span>
+      </a>
+      <a href="javascript:void(0)" class="item">
+        <span class="glyphicon glyphicon-object-align-bottom"></span>
+        <span>关于我们</span>
+      </a>
+      <a href="javascript:void(0)" class="item">
+        <span class="glyphicon glyphicon-list-alt"></span>
+        <span>风险评估</span>
+      </a>
+      <a href="javascript:void(0)" class="item">
+        <span class="glyphicon glyphicon-user"></span>
+        <span>用户中心</span>
+      </a>
+    </footer>
+
+
+</body>
+</html>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/less.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/wow.min.repeat.js"></script>
+<script>
+    //懒加载初始化
+    new WOW().init()
+
+
+    //百度地图
+    var map = new BMap.Map("map");    // 创建Map实例
+
+    // 初始化地图,设置中心点坐标和地图级别
+    map.centerAndZoom(new BMap.Point(113.26197, 23.10379), 12);
+
+    //添加地图类型控件
+    map.addControl(new BMap.MapTypeControl({
+      mapTypes:[
+              BMAP_NORMAL_MAP,
+              BMAP_HYBRID_MAP
+          ]}));	  
+    map.setCurrentCity("广州");          // 设置地图显示的城市 此项是必须设置的
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+
+    //判断是否为手机端
+    var isTouch=('ontouchstart' in window);
+
+    if(isTouch){
+        $(".carousel").on('touchstart', function(e){
+            var that=$(this);
+            var touch = e.originalEvent.changedTouches[0];
+            var startX = touch.pageX;
+            var startY = touch.pageY;
+            $(document).on('touchmove',function(e){
+                touch = e.originalEvent.touches[0] ||e.originalEvent.changedTouches[0];
+                var endX=touch.pageX - startX;
+                var endY=touch.pageY - startY;
+                if(Math.abs(endY)<Math.abs(endX)){
+                    if(endX > 10){
+                        $(this).off('touchmove');
+                        that.carousel('prev');
+                    }else if (endX < -10){
+                        $(this).off('touchmove');
+                        that.carousel('next');
+                    }
+                    return false;
+                }        });
+        });
+        $(document).on('touchend',function(){
+            $(this).off('touchmove');
+        });
+    }
+</script>
